@@ -16,7 +16,7 @@ Table of Contents
 1. Features
 2. Installation
 3. Quick Start
-4. Command-line Options
+4. Configurable Parameters
 5. Output Files & Their Meaning
 6. Internal Workflow
 7. Extending / Customizing
@@ -53,12 +53,14 @@ pip install -r requirements.txt
 --------------------------------------------------------------------
 3. Quick Start
 --------------------------------------------------------------------
-```bash
-python parallel_BFOA.py --in sequences.fasta --out result.aln --iterations 500 --pop 64 --cores 8
+use Python ≥ 3.8
+python parallel_BFOA.py 
+configure atract and repel parameters
+set population and iterations values
 ```
 
 --------------------------------------------------------------------
-4. Command-line Options
+4. Configurable Parameters
 --------------------------------------------------------------------
 --in <file>            Input FASTA
 --out <file>           Output alignment (Clustal format)
